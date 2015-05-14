@@ -167,6 +167,31 @@ def contains_digit(number, digit):
     return False
 
 
+
+# 5.Number containing all digits?
+
+# Implement a function, called contains_digits(number, digits) 
+# where digits is a list of integers and number is an integer.
+
+# The function should return True if all digits are contained in number.
+
+# Signature
+
+# def contains_digits(number, digits):
+#     pass
+# Test examples
+
+# >>> contains_digits(402123, [0, 3, 4])
+# True
+# >>> contains_digits(666, [6,4])
+# False
+# >>> contains_digits(123456789, [1,2,3,0])
+# False
+# >>> contains_digits(456, [])
+# True
+
+
+
 def main():
     n = input("Enter some number: ")
     n = int(n)
